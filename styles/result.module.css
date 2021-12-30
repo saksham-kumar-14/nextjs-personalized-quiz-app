@@ -1,0 +1,15 @@
+#result{
+    margin: 1rem;
+}
+#btn{
+    background-color: rgb(15,15,15);
+    color:white;
+    border: none; 
+    padding: 0.5rem;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+    transition: 0.3s;
+}#btn:hover{
+    transform: scale(1.15);
+    background-color: black; 
+}

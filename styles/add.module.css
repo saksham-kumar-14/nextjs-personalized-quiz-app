@@ -1,0 +1,25 @@
+#form{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    margin : 1.5rem;
+    transition: 0.6s;
+}#form:hover{
+    box-shadow: 1rem 1rem 1rem 1rem rgb(200,200,200);
+}
+#form button {
+    border: none;
+    cursor : pointer; 
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(10,10,10);
+    color: white; 
+    padding: 1rem 1.25rem;
+    font-size: 0.85rem;
+    border-radius: 1rem;
+    margin: 0.75rem 0rem;
+    transition: 0.3s;
+}#form button:hover{
+    transform: scale(1.15);
+}

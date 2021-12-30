@@ -1,0 +1,31 @@
+#clear_all_btn{
+    color: white;
+    background-color: rgb(197, 26, 26);
+    font-family: 'Heebo', sans-serif;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition:0.4s;
+}#clear_all_btn:hover{
+    background-color: rgb(235, 45, 45);
+}
+.sub_div{
+    display: grid;
+    grid-template-columns: 6% 94%;
+}
+.sub_sub_div{
+    display: flex;
+    flex-direction: column;
+}
+.sub_question, .sub_answer {
+    color: rgb(255, 94, 0);
+}
+#main_div{
+    margin: 2rem;
+}
+#heading{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}

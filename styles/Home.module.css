@@ -1,0 +1,41 @@
+#main_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_sub_div{
+  display: flex; 
+  justify-content: center;  
+  font-size: 1.25rem;
+}
+
+.nav_btns{
+  margin: 0rem 1rem;
+  text-decoration : none; 
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(10,10,10);
+  padding : 1.2rem;
+  border-radius: 1.75rem;
+  cursor: pointer;
+  border: none;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+}.nav_btns:hover{   
+  transform : scale(1.15); 
+  background-color: white;
+  color: rgb(10,10,10);
+  box-shadow: 0.6rem 0.6rem 0.6rem rgb(200,200,200);
+}
+
+#main_sub_div_1{
+  font-size: 1.75rem;
+  margin: 1rem 0rem;
+  text-decoration: underline;
+}
+#heading_div{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
